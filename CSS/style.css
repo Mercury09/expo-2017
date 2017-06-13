@@ -1,0 +1,82 @@
+  .main {
+    text-align: center;
+    background: url(https://expo2017astana.com/images/main/pavilions_bg.jpg);
+    padding: 400px 0;
+    background-size: cover;
+    color: 	rgb(0, 255, 191);
+    text-shadow: 3px 3px 3px rgb(0, 255, 128);
+    font-size: 32px;
+    background-attachment: fixed;
+  }
+
+  .main h1:hover, .main h3:hover{
+    color: silver;
+  }
+  body{
+    margin-left: auto;
+    margin-top: auto;
+  }
+nav{
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    bottom: 500px;
+    font-size: 20px;
+
+	}
+nav ul
+{
+   width: 850px;
+    overflow: hidden;
+	 margin: 0 auto;
+	}
+  nav ul li
+{   border-right: 1px solid #555;
+    float: left;
+    list-style: none;
+
+	}
+  nav ul li a:link, nav ul li a:visited
+{   width: 200px;
+    padding: 6px 40px;
+    color: #fff;
+    background-color: #8895a3;
+    font-size: .8em;
+    text-decoration: none;
+    text-align: center;
+    margin:10px 0 40px;
+  }
+nav ul li:hover a{
+  background-color: #82c54e;
+}
+
+.infoBox{
+  width: 940px;
+  height: 250px;
+  margin: 40px auto;
+  padding: 25px 30px 30px;
+  background: #f1f1f1;
+}
+
+.floatRightImg{
+
+margin: 0 0 10px 20px;
+padding: 7px;
+//border: 1px solid #CCC;
+float:right;
+}
+
+footer {
+  background: #666;
+  padding-top:25px;
+  padding-bottom:60px;
+  width:100%;
+  position:absolute;
+
+}
+.columnWrapper {
+  //overflow: auto;
+ //width: 1300px;
+  margin:0 0 0 400px;
+
+}
